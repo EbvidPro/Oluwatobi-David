@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Start of Async Drift Code -->
+    <script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('ut5vid2tzedh');
+    </script>
+    <!-- End of Async Drift Code -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Oluwatobi David</title>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <nav id="navbar">
+                <h1 class="Logo">OLUWATOBI <span>DAVID</span></h1>
+                <img src="icon-hamburger.svg" alt="hamburger" class="hamburg" onclick="menu()">
+                <ul class="menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <a href="#contact"><button class="hireMe-btn">Hire Me</button></a>
+                </ul>
+            </nav>
+            <div class="hero-text">
+                <h1>Hello. <span><br>I am <br> Oluwatobi</span></h1>
+            </div>
+        </div>
+    </div>
+    <!--About Section-->
+    <div id="about">
+        <div class="aboutCard">
+            <div class="text">
+                <h2>I'm a Desinger and a Front-end Developer</h2>
+                <p>I design and code beautifully simple things, 
+                and I love what I do. I'm quietly confident, 
+                naturally curious, and perpetually working 
+                on improving my chops one design problem at a time.
+                </p>
+            </div>
+            <div class="services">
+                <div class="designer">
+                    <img src="designer.svg" alt="designer" class="design">
+                    <h3>Designer</h3>
+                    <P>I value simple content structure, clean design patterns,
+                        and thoughtful interactions.
+                    </P>
+                    <h4>Things I enjoy designing:</h4>
+                    <ul>
+                        <li>UI/UX</li>
+                        <li>Web</li>
+                        <li>Flyer</sli>
+                        <li>Logo</li>
+                        <li>Brochure</li>
+                    </ul>
+                </div>
+                <div class="developer">
+                    <img src="frontend.svg" alt="coding" class="coding">
+                    <h3>Front-end Developer</h3>
+                    <p>I like to code things from scratch, and enjoy bringing ideas
+                        to life in the browser
+                    </p>
+                    <h4>Languages I speak:</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React.js</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio Section-->
+    <div id="portfolio" class="project">
+        <h1>PROJECTS</h1>
+        <hr>
+        <div class="works">
+            <div class="container">
+                <img src="work1.jpg" alt="work1">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Sunnyside Agency Landing Page</h2>
+                        <p>HTML / CSS / JavaScript</p>
+                        <a href="https://ebvidpro.github.io/Sunnyside-Agency/" target="_blank" rel="noopener noreferrer">
+                            <button>Visit Site</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="work2.jpg" alt="work2">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>BLogr Landing Page</h2>
+                        <p>HTML / CSS / JavaScript</p>
+                        <a href="https://ebvidpro.github.io/Blogr-Landing-Page/" target="_blank" rel="noopener noreferrer">
+                            <button>Visit Site</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="work3.jpg" alt="work2">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Three Column Preview Card Component</h2>
+                        <p>HTML / CSS (Grid & Flexbox)</p>
+                        <a href="https://ebvidpro.github.io/3-Column.github.io/" target="_blank" rel="noopener noreferrer">
+                            <button>Visit Site</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="work4.jpg" alt="work2">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Stats Preview Component</h2>
+                        <p>HTML / CSS (Grid)</p>
+                        <a href="https://github.com/EbvidPro/EbvidPro.github.io" target="_blank" rel="noopener noreferrer">
+                            <button>Visit Site</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact Section-->
+    <div id="contact">
+        <div class="contactCard">
+            <h1>CONTACT</h1>
+            <hr>
+            <p>Have a question or want to work together?</p>
+            <div class="message">
+                <form action="mailto:ebenezerdavid2233@gmail.com" method="post">
+                    <input type="text" placeholder="Name" >
+                    <input type="e-mail" placeholder="Enter E-mail">
+                    <textarea name="user_message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Footer section-->
+    <div class="footer">
+        <h1 class="footerLogo">OLUWATOBI <span>DAVID</span></h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href=""><img src="icon-linkedin.svg" alt=""></a>
+            <a href=""><img src="icon-github.svg" alt=""></a>
+            <a href=""><img src="icon-instagram.svg" alt=""></a>
+            <a href=""><img src="icon-facebook.svg" alt=""></a>
+        </div>
+    </div>
+</body>
+</html>    

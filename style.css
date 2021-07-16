@@ -1,0 +1,617 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 125vh;
+  color: white;
+  background-color: black;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.Logo {
+  color: #ff0202;
+  padding: 30px;
+  position: absolute;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39.4286px;
+  text-align: left;
+  cursor: pointer;
+}
+.Logo span {
+  color: white;
+}
+.hamburg {
+  display: none;
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+}
+nav {
+  position: relative;
+  z-index: 1;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: block;
+  width: 100%;
+  transition: top 0.3s;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  padding: 40px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: #ff0202;
+}
+.hireMe-btn {
+  margin-right: 50px;
+  margin-left: 20px;
+  background-color: #ff0202;
+  padding: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  border: none;
+  border-radius: 3px;
+}
+.hireMe-btn:hover {
+  cursor: pointer;
+  background-color: white;
+}
+.hero-text {
+  position: relative;
+  margin: 170px;
+  animation: myintro 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes myintro {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.hero-text h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 127.838px;
+  line-height: 150px;
+  color: #ffffff;
+}
+.hero-text span {
+  color: #ff0202;
+}
+.aboutCard {
+  display: block;
+  color: black;
+  text-align: center;
+}
+.text {
+  background-color: white;
+  height: 580px;
+  margin-bottom: -30rem;
+}
+.aboutCard h2 {
+  padding: 50px 10px 0px 10px;
+  font-size: 30px;
+}
+.aboutCard p {
+  padding: 10px 28rem 20px 28rem;
+  color: rgba(0, 0, 0, 0.644);
+}
+.services {
+  margin: 100px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 14px;
+  grid-gap: 2px white;
+  transition: 5s;
+  box-shadow: 0 1rem 10rem rgba(0 0 0/0.2), 0 1rem 4rem rgba(0 0 0/0.2);
+}
+.designer,
+.developer {
+  padding: 110px 50px 20px 50px;
+}
+
+.designer ul,
+.developer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  line-height: 50px;
+  color: rgba(229, 229, 229, 0.61);
+}
+.designer p,
+.developer p {
+  color: rgba(229, 229, 229, 0.61);
+  padding: 10px 50px 0px 50px;
+}
+.designer {
+  border-right: 1px solid rgba(255, 255, 255, 0.733);
+}
+h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+h4 {
+  color: #ff0202;
+  font-size: 20px;
+}
+.project {
+  text-align: center;
+}
+hr {
+  width: 70px;
+  border: 2px solid white;
+}
+.works {
+  display: grid;
+  margin: 5rem 15rem 5rem 15rem;
+  text-align: center;
+  justify-content: center;
+  grid-template-columns: 50% 50%;
+  grid-gap: 5px;
+}
+.container img {
+  height: auto;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(10, 253, 1, 0.384);
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height: 0;
+  transition: 0.5s ease;
+}
+.container {
+  position: relative;
+  height: 99%;
+}
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.overlay .text {
+  color: white;
+  top: 20%;
+  left: 50%;
+  font-size: 15px;
+  height: 0;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.overlay .text h2 {
+  color: black;
+}
+.overlay .text p {
+  color: #ff0202af;
+}
+.overlay .text button {
+  padding: 10px 13px 10px 13px;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid #ff0202;
+  text-transform: uppercase;
+}
+.overlay .text button:hover {
+  background-color: #ff0202;
+  color: white;
+  cursor: pointer;
+}
+#contact {
+  text-align: center;
+  background-color: #252934;
+  font-family: "Raleway", sans-serif;
+}
+#contact p {
+  color: aqua;
+}
+.contactCard {
+  padding: 50px;
+}
+form {
+  display: grid;
+  grid-template-columns: 50%;
+  justify-content: center;
+  grid-gap: 3px;
+  padding-bottom: 50px;
+}
+input,
+textarea {
+  background-color: #1e242c;
+  font-size: 15px;
+  border: none;
+  padding: 5px;
+  color: white;
+  width: auto;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+form button {
+  padding: 10px;
+  text-transform: uppercase;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  width: 30%;
+  font-size: 20px;
+}
+form button:hover {
+  background-color: teal;
+  border: 2px solid teal;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  background-color: #1b242f;
+}
+.footerLogo {
+  color: #ff0202;
+  padding: 30px;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+.footerLogo span {
+  color: white;
+}
+.footer ul {
+  margin: 0;
+  padding: 0;
+}
+.footer ul li {
+  display: inline-block;
+  padding: 20px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer ul li a:hover {
+  color: #ff0202;
+}
+.social-icons img {
+  padding: 15px;
+}
+.social-icons img:hover {
+  filter: invert(0.5) brightness(50);
+  fill: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-text h1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 115px;
+    line-height: 150px;
+    color: #ffffff;
+  }
+  .text {
+    margin-bottom: -25rem;
+  }
+  .aboutCard h2 {
+    padding-top: 40px;
+    font-size: 35px;
+  }
+  .aboutCard p {
+    padding: 10px 50px;
+  }
+  .services {
+    margin: 75px;
+  }
+  .works {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5rem 8rem 5rem 8rem;
+  }
+  form {
+    grid-template-columns: 70%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Logo {
+    font-size: 35px;
+  }
+  .hero-text {
+    margin: 150px;
+  }
+  .hero-text h1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 100px;
+    line-height: 120px;
+    color: #ffffff;
+  }
+  .text {
+    margin-bottom: -25rem;
+  }
+  .aboutCard h2 {
+    padding-top: 40px;
+    font-size: 35px;
+  }
+  .aboutCard p {
+    padding: 10px;
+  }
+  .services {
+    margin: 40px;
+  }
+  .works {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav ul {
+    display: none;
+    text-align: center !important;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content max-content;
+    width: 70%;
+    margin: 20px 20px 20px 40px;
+    height: max-content;
+    background: rgb(255, 255, 255);
+    justify-content: center !important;
+    border-radius: 6px;
+    padding: 1rem;
+    position: absolute;
+    top: 7rem;
+    box-shadow: 0 1rem 10rem rgba(0 0 0/0.2), 0 1rem 4rem rgba(0 0 0/0.2);
+    z-index: 999;
+  }
+  nav ul li {
+    display: grid;
+    line-height: 40px;
+    padding: 0px 15px 0px 15px;
+  }
+  nav ul li a {
+    color: black;
+    font-weight: 700;
+  }
+  nav ul li a:hover {
+    color: #ff0202;
+  }
+  .hireMe-btn {
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: #ff0202;
+    padding: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    border: none;
+    border-radius: 3px;
+  }
+  .hireMe-btn:hover {
+    background-color: royalblue;
+  }
+  .hamburg {
+    display: inline-block;
+  }
+  .Logo {
+    display: block;
+    font-size: 35px;
+  }
+  .hero-text {
+    margin: 160px 120px 150px 120px;
+  }
+  .hero-text h1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 100px;
+    line-height: 120px;
+    color: #ffffff;
+  }
+  .text {
+    margin-bottom: -20rem;
+  }
+  .aboutCard h2 {
+    padding-top: 40px;
+    font-size: 35px;
+  }
+  .aboutCard p {
+    padding: 10px 5rem 20px 5rem;
+  }
+  .services {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 40px;
+    grid-gap: solid white;
+  }
+  .designer {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.733);
+  }
+  form {
+    grid-template-columns: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+  .Logo {
+    display: block;
+    font-size: 30px;
+  }
+  .hero-text {
+    margin: 160px 80px 80px;
+  }
+  .hero-text h1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 68px;
+    line-height: 90px;
+    color: #ffffff;
+  }
+  .aboutCard h2 {
+    padding-top: 40px;
+    font-size: 25px;
+  }
+  .aboutCard p {
+    padding: 10px 1rem 20px 1rem;
+  }
+  .services {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 40px;
+    grid-gap: solid white;
+  }
+  .designer,
+  .developer {
+    padding: 50px 30px;
+  }
+  .designer p,
+  .developer p {
+    color: rgba(229, 229, 229, 0.61);
+    padding: 0px;
+  }
+  .works {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 3rem;
+  }
+  form button {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Logo {
+    display: block;
+    font-size: 25px;
+  }
+  .hero-text {
+    margin: 120px 50px 100px;
+  }
+  .hero-text h1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 55px;
+    line-height: 70px;
+    color: #ffffff;
+  }
+  .aboutCard h2 {
+    padding-top: 40px;
+    font-size: 25px;
+  }
+  .aboutCard p {
+    padding: 10px 1rem 20px 1rem;
+  }
+  .services {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 40px;
+    grid-gap: solid white;
+  }
+  .designer,
+  .developer {
+    padding: 40px 20px;
+  }
+  .designer p,
+  .developer p {
+    color: rgba(229, 229, 229, 0.61);
+    padding: 0px;
+  }
+  .overlay .text {
+    top: 10px;
+    font-size: 13px;
+  }
+  .overlay .text button {
+    font-size: 9px;
+  }
+  form {
+    grid-template-columns: 100%;
+  }
+  form button {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .Logo {
+    display: block;
+    font-size: 20px;
+  }
+  .Logo span {
+    display: none;
+    color: white;
+  }
+  .hero-text {
+    margin: 120px 30px 80px;
+  }
+  .hero-text h1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 45px;
+    line-height: 65px;
+    color: #ffffff;
+  }
+  .aboutCard h2 {
+    padding-top: 40px;
+    font-size: 25px;
+  }
+  .aboutCard p {
+    padding: 10px 1rem 20px 1rem;
+  }
+  .services {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 10px;
+    grid-gap: solid white;
+  }
+  .designer,
+  .developer {
+    padding: 30px 10px;
+  }
+  .designer p,
+  .developer p {
+    color: rgba(229, 229, 229, 0.61);
+    padding: 0px;
+  }
+  .overlay .text {
+    top: 10px;
+    font-size: 9px;
+  }
+  .overlay .text button {
+    font-size: 7px;
+  }
+}
