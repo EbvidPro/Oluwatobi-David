@@ -33,7 +33,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: black !important;
   display: block;
   width: 100%;
   transition: top 0.3s;
@@ -424,6 +424,8 @@ form button:hover {
   .Logo {
     display: block;
     font-size: 35px;
+    background-color: black;
+    width: 100%;
   }
   .hero-text {
     margin: 160px 120px 150px 120px;
