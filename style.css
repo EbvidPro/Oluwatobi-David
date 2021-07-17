@@ -100,14 +100,15 @@ nav ul li a:hover {
 .text {
   background-color: white;
   height: 580px;
-  margin-bottom: -30rem;
+  margin-bottom: -28rem;
 }
 .aboutCard h2 {
   padding: 50px 10px 0px 10px;
   font-size: 30px;
 }
 .aboutCard p {
-  padding: 10px 28rem 20px 28rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 26rem 20px 26rem;
   color: rgba(0, 0, 0, 0.644);
 }
 .services {
