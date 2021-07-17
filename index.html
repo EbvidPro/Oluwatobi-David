@@ -167,11 +167,11 @@
             <hr>
             <p>Have a question or want to work together?</p>
             <div class="message">
-                <form action="mailto:ebenezerdavid2233@gmail.com" method="post">
-                    <input type="text" placeholder="Name" >
+                <form method="post" target="_blank">
+                    <input type="text" placeholder="Name" id="cname" required>
                     <input type="e-mail" placeholder="Enter E-mail">
-                    <textarea name="user_message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
-                    <button type="submit">Submit</button>
+                    <textarea name="user_message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                    <button type="submit" onclick="sendMail()">Submit</button>
                 </form>
             </div>
         </div>

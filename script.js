@@ -23,3 +23,10 @@ function menu() {
         mobileMenu.style.display = 'none';
     }
 }
+// Send Mail
+function sendMail() {    
+    var body = document.getElementById("message").value;
+    var subject = document.getElementById("cname").value;
+
+    window.location.replace(`mailto:ebenezerdavid2233@gmail.com?body=${body}&subject=${subject} wants to contact you`);    
+}

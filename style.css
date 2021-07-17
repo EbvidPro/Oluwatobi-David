@@ -178,7 +178,7 @@ hr {
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: rgba(10, 253, 1, 0.384);
+  background-color: rgba(65, 105, 225, 0.596);
   overflow: hidden;
   width: 100%;
   text-align: center;
@@ -213,8 +213,9 @@ hr {
 .overlay .text button {
   padding: 10px 13px 10px 13px;
   border-radius: 20px;
-  background-color: white;
+  background-color: transparent;
   border: 2px solid #ff0202;
+  color: white;
   text-transform: uppercase;
 }
 .overlay .text button:hover {
