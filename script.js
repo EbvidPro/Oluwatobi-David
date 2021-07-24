@@ -4,8 +4,10 @@ window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
         document.getElementById('navbar').style.top = '0';
+        document.getElementById('navbar').style.boxShadow = 'none';
     } else {
         document.getElementById('navbar').style.top = '-100px';
+        document.getElementById('navbar').style.boxShadow = '0px 2px 10px #ffffff';
     }
     prevScrollpos = currentScrollPos;
 }
