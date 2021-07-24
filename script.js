@@ -2,12 +2,15 @@
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
+    var mobileMenu = document.querySelector('.menu');
     if (prevScrollpos > currentScrollPos) {
         document.getElementById('navbar').style.top = '0';
         document.getElementById('navbar').style.boxShadow = 'none';
+        mobileMenu.style.top = '80px';
     } else {
         document.getElementById('navbar').style.top = '-100px';
         document.getElementById('navbar').style.boxShadow = '0px 2px 10px #ffffff';
+        mobileMenu.style.top = '-150px';
     }
     prevScrollpos = currentScrollPos;
 }

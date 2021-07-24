@@ -160,6 +160,16 @@ h4 {
 hr {
   width: 70px;
   border: 2px solid white;
+  animation: myLine 1s alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes myLine {
+  from {
+    width: 30px;
+  }
+  to {
+    width: 70px;
+  }
 }
 .works {
   display: grid;
@@ -593,7 +603,8 @@ form button:hover {
     font-size: 25px;
   }
   .aboutCard p {
-    padding: 10px 1rem 20px 1rem;
+    font-size: 15px;
+    padding: 10px;
   }
   .services {
     display: grid;
