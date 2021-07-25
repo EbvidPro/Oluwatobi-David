@@ -2,11 +2,11 @@ body {
   margin: 0;
   padding: 0;
   color: white;
-  background-color: rgb(0, 0, 0);
+  background-color: #272727;
   font-family: "Roboto Condensed", sans-serif;
 }
 .Logo {
-  color: #ff0202;
+  color: #14a76c;
   padding: 30px;
   position: absolute;
   margin: 0;
@@ -32,7 +32,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: black !important;
+  background-color: #272727 !important;
   display: block;
   width: 100%;
   transition: top 0.3s;
@@ -47,15 +47,16 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
 }
 nav ul li a:hover {
-  color: #ff0202;
+  color: #ff652f;
 }
 .hireMe-btn {
   margin-right: 50px;
   margin-left: 20px;
-  background-color: #ff0202;
+  background-color: #14a76c;
   padding: 10px;
   font-family: "Roboto Condensed", sans-serif;
   border: none;
@@ -89,7 +90,7 @@ nav ul li a:hover {
   color: #ffffff;
 }
 .hero-text span {
-  color: #ff0202;
+  color: #14a76c;
 }
 .aboutCard {
   display: block;
@@ -97,7 +98,7 @@ nav ul li a:hover {
   text-align: center;
 }
 .text {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.842);
   height: 580px;
   margin-bottom: -28rem;
 }
@@ -108,19 +109,19 @@ nav ul li a:hover {
 .aboutCard p {
   font-family: "Montserrat", sans-serif;
   padding: 10px 26rem 20px 26rem;
-  color: rgba(0, 0, 0, 0.644);
+  color: #ff652f;
 }
 .services {
   margin: 100px;
   text-align: center;
   display: grid;
   grid-template-columns: 50% 50%;
-  border: 1px solid white;
-  background-color: black;
+  border: 1px solid whitesmoke;
+  background-color: #272727;
   border-radius: 14px;
   grid-gap: 2px white;
   transition: 5s;
-  box-shadow: 0 1rem 10rem rgba(0 0 0/0.2), 0 1rem 4rem rgba(0 0 0/0.2);
+  box-shadow: 0px 0px 6px whitesmoke;
 }
 .designer,
 .developer {
@@ -141,7 +142,7 @@ nav ul li a:hover {
   padding: 10px 50px 0px 50px;
 }
 .designer {
-  border-right: 1px solid rgba(255, 255, 255, 0.733);
+  border-right: 1px solid whitesmoke;
 }
 h3 {
   font-family: "Roboto Condensed", sans-serif;
@@ -151,7 +152,7 @@ h3 {
   color: white;
 }
 h4 {
-  color: #ff0202;
+  color: #ff652f;
   font-size: 20px;
 }
 .project {
@@ -284,7 +285,7 @@ form button:hover {
   background-color: #1b242f;
 }
 .footerLogo {
-  color: #ff0202;
+  color: #14a76c;
   padding: 30px;
   margin: 0;
   font-style: normal;
@@ -435,7 +436,7 @@ form button:hover {
   .Logo {
     display: block;
     font-size: 35px;
-    background-color: black;
+    background-color: #272727;
     width: 100%;
   }
   .hero-text {
