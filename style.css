@@ -5,6 +5,12 @@ body {
   background-color: #272727;
   font-family: "Roboto Condensed", sans-serif;
 }
+.header {
+  background-image: url("intro-image.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
 .Logo {
   color: #14a76c;
   padding: 30px;
@@ -47,7 +53,7 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Raleway", sans-serif;
   color: white;
 }
 nav ul li a:hover {
