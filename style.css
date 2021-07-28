@@ -2,14 +2,26 @@ body {
   margin: 0;
   padding: 0;
   color: white;
+  background: url("bg.svg");
   background-color: #272727;
   font-family: "Roboto Condensed", sans-serif;
 }
 .header {
   background-image: url("intro-image.png");
+  width: 100%;
   background-repeat: no-repeat;
   background-position: right;
+  animation: mybg 3s;
+  animation-iteration-count: 1;
   background-size: contain;
+}
+@keyframes mybg {
+  from {
+    background-position: 1500px;
+  }
+  to {
+    background-position: right;
+  }
 }
 .Logo {
   color: #14a76c;
@@ -38,6 +50,9 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
+  background: url("bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #272727 !important;
   display: block;
   width: 100%;
@@ -75,13 +90,13 @@ nav ul li a:hover {
 .hero-text {
   position: relative;
   margin: 170px;
-  animation: myintro 2s;
+  animation: myintro 3s;
   animation-iteration-count: 1;
 }
 
 @keyframes myintro {
   from {
-    top: -100px;
+    top: -700px;
   }
   to {
     top: 0px;
