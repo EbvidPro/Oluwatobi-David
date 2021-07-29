@@ -57,6 +57,16 @@ nav {
   display: block;
   width: 100%;
   transition: top 0.3s;
+  animation: myNav 3s;
+  animation-iteration-count: 1;
+}
+@keyframes myNav {
+  from {
+    left: -1500px;
+  }
+  to {
+    left: 0px;
+  }
 }
 nav ul {
   margin: 0;
@@ -457,6 +467,9 @@ form button:hover {
   .Logo {
     display: block;
     font-size: 35px;
+    background: url("bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #272727;
     width: 100%;
   }
