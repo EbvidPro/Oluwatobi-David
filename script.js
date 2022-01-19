@@ -1,6 +1,6 @@
 // Navbar scrolling effect
 var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
+window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
     var mobileMenu = document.querySelector('.menu');
     if (prevScrollpos > currentScrollPos) {
@@ -29,9 +29,15 @@ function menu() {
     }
 }
 // Send Mail
-function sendMail() {    
+function sendMail() {
     var body = document.getElementById("message").value;
     var subject = document.getElementById("cname").value;
 
-    window.location.replace(`mailto:ebenezerdavid2233@gmail.com?body=${body}&subject=${subject} wants to contact you`);    
+    window.location.replace(`mailto:ebenezerdavid2233@gmail.com?body=${body}&subject=${subject} wants to contact you`);
 }
+
+// // Making the Projects Section into different Categories
+
+// function myLogo() {
+//     console.log('Get here in time');
+// }

@@ -2,12 +2,12 @@ body {
   margin: 0;
   padding: 0;
   color: white;
-  background: url("bg.svg");
+  background: url("img/icons/bg.svg");
   background-color: #272727;
   font-family: "Roboto Condensed", sans-serif;
 }
 .header {
-  background-image: url("intro-image.png");
+  background-image: url("img/intro-image.png");
   width: 100%;
   background-repeat: no-repeat;
   background-position: right;
@@ -50,7 +50,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background: url("bg.svg");
+  background: url("img/icons/bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #272727 !important;
@@ -72,6 +72,21 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+/* .categories ul {
+  margin: 0;
+  padding: 0;
+}
+.categories ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.categories ul li a {
+  color: white;
+  text-decoration: none;
+}
+.categories ul li a:hover {
+  color: blue;
+} */
 nav ul li {
   display: inline-block;
   padding: 40px 20px;
@@ -509,7 +524,7 @@ form button:hover {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   nav ul {
     display: none;
   }
@@ -560,7 +575,7 @@ form button:hover {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .Logo {
     display: block;
     font-size: 25px;
@@ -613,7 +628,7 @@ form button:hover {
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 350px) {
   .Logo {
     display: block;
     font-size: 20px;
