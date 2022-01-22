@@ -482,7 +482,7 @@ form button:hover {
   .Logo {
     display: block;
     font-size: 35px;
-    background: url("bg.svg");
+    background: url("img/icons/bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #272727;
