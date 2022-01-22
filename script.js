@@ -20,11 +20,11 @@ function menu() {
     let closeBtn = hamburger.getAttribute('src');
     let mobileMenu = document.querySelector('.menu');
 
-    if (closeBtn == "icon-hamburger.svg") {
-        hamburger.setAttribute('src', 'icon-close.svg');
+    if (closeBtn == "img/icons/icon-hamburger.svg") {
+        hamburger.setAttribute('src', 'img/icons/icon-close.svg');
         mobileMenu.style.display = 'block';
     } else {
-        hamburger.setAttribute('src', 'icon-hamburger.svg');
+        hamburger.setAttribute('src', 'img/icons/icon-hamburger.svg');
         mobileMenu.style.display = 'none';
     }
 }
