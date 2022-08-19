@@ -144,7 +144,7 @@ nav ul li a:hover {
   text-align: center;
 }
 .text {
-  background-color: rgba(255, 255, 255, 0.842);
+  /* background-color: rgba(255, 255, 255, 0.842); */
   height: 580px;
   margin-bottom: -28rem;
 }
